@@ -1,0 +1,390 @@
+*{
+    margin: 1400px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul{
+    display: inline-block;
+    list-style-type:none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 25px;
+}
+a{
+    text-decoration: none;
+    color: #B3AF8A
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300;
+    margin:auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    ahlign-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img {
+
+    max-width: 100%;
+    padding: 50px 0;
+    
+}
+.col-2 h1{
+    font-size: 25px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background-color: tomato;
+    color: #555;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s ;
+}
+.btn:hover{
+    background-color:cornsilk;
+}
+.header{
+    background: radial-gradient(#fff,#ffd6d6) ;
+}
+.header row{
+    margin-top: 70px;
+}
+.categories{
+    margin: 70px 0; 
+}
+.col-3{
+    flex-basis: 30%;
+    min-width:250px ;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%;
+}
+.small-container{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col-4{
+    flex-basis: 10%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    text-align: center;
+    transition: transform 0.45s;
+}
+.col-4 img{
+    width: 200px;
+}
+.naruto{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height:  60px;
+    color: #555;
+}
+.naruto::after{
+    content: '';
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 15px;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+
+}
+.offer{
+   background: radial-gradient(#fff,#ffd6d6); 
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 .offer-img{
+    padding: 50px;
+}
+.small{
+    color: #555;
+}
+<!-------- Footer --------->
+.footer{
+    background-color: whitesmoke;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+    background-color:white
+
+}
+.footer h3{
+    color: #8a8a8a;
+    margin-bottom: 20px;
+    background-color: white; 
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+    background-color:white; 
+}
+.footer-col-1{
+    flex-basis: 30%;
+    background-color:white; 
+
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+    background-color: white; 
+
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+    background-color:white; 
+
+}
+.footer-col-3,.footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+    background-color: white; 
+
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.Copyright{
+    text-align: center;
+
+}
+
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display:none;
+}
+@media only screen and (max-width:800px){
+    nav ul{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        background: #333;
+        width: 100%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin-right: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a{
+        color: #fff;
+
+    }
+
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+
+}
+
+
+@media only screen and (max-width:600px){
+    .row{
+        text-align: center;
+    }
+    .col-2,.col-3,.col-4{
+         flex-basis: 100%;
+    }
+}
+.small-conteiner21{
+    text-align: center;
+    
+
+}
+.sasuke{
+    justify-content: space-between;
+    margin: 100px auto 50px;
+}
+select{
+    border: 1px solid #ff523b;
+    padding: 5px;
+}
+.copyright{
+    text-align: center;
+}
+
+.hasirama{
+    background: white;
+    
+}
+
+.small-conteiner21{
+    background: whitesmoke
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+
+
+
+
+.madara{
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    background: url(acc.png.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.wrapper{
+    width: 420px;
+    background:transparent;
+    color: #fff;
+    border-radius: 10px ;
+    padding: 30px 40px;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    width: 100%;
+    height: 50px;
+    background: salmon;
+    margin: 30px 0;
+}
+.input-box-1 input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255,255,255,2);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #fff;
+    padding: 20px 45px 20px 20px;
+}
+.input-box-1 input::placeholder{
+    color: #fff;
+}
+.input-box-1 i{
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+.remember-forgot label input{
+    accent-color: #333;
+    text-decoration: none;
+
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+}
+.wrapper .btn-4{
+    width: 100%;
+    height: 45px;
+    background:#fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin-top: 20px 0 15px;
+}
+.register-link  a{
+          color:orangered;
+          text-decoration: none;
+          font-weight: 600;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+.register-link  p{
+    color: #ff523b;
+}
+.itachi{
+    background: #fff;
+}
+  
+.tusunade{
+    background: burlywood;
+}
+.barca{
+    background: radial-gradient(#fff,#ffd6d6) ;
+
+}
+.row h1 p{
+    text-align: center;
+}
